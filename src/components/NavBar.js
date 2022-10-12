@@ -23,8 +23,8 @@ const NavBar = () => {
         </div>
            <div>
             <Link className='block  md:inline-block mr-5' to='/home'>Home</Link>
-           <Link className='block md:inline-block mr-5' to='/quiz'>Quiz</Link>
-            <Link className='sm:block  md:inline-block mr-5' to='/quizChart'>Quiz Chart</Link>
+           <Link className='block md:inline-block mr-5' to='/puzzle'>Puzzle</Link>
+            <Link className='sm:block  md:inline-block mr-5' to='/puzzleStatic'>Puzzle Statics</Link>
             <Link className='block  md:inline-block mr-5' to='/blog'>Blogs</Link>
            </div>
         </div>
