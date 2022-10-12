@@ -8,7 +8,7 @@ const QuizItem = () => {
 
     return (
         <div>
-              <div className='grid md:grid-cols-2 w-9/12 m-auto gap-6 mt-20'>
+              <div className='grid md:grid-cols-3 w-9/12 m-auto gap-2 mt-20'>
           {
             quizes.map(note=><Note 
                 key={note.id}

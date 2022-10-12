@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
 import Option from './Option';
-import '../assets/Question.css';
-const Question = ({questions,correct, setCorrect, wrong, setWrong}) => {
+const Question = ({questions, }) => {
    
     const {options, question, correctAnswer} = questions ;
     // console.log(questions)
     const handleCorrect = (answer)=>{
         if(correctAnswer === answer) {
             alert('right');
-            setCorrect(correct+1);
+           
             return 'active';
         }
         else{
             alert('wrong');
-            setWrong(wrong+ 1);
+          
         }
     }
     return (
